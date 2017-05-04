@@ -1,12 +1,15 @@
-## Rodar  
+# boleto.js-linhadigitavel
+### Rodar  
 
 > yarn install  
 > bower install  
 > node index.js  
 
+### Teste
+ - url: localhost:8081/
 
-
- - url: localhost:3000/emitirBoleto  
+### Emitindo
+ - url: localhost:8081/emitirBoleto  
  - type: POST 
  - data: 
       ```
@@ -26,4 +29,8 @@
            "pagador": "ERICK WENDEL",
            "logoURL": "https://www.banconeon.com.br/Content/assets/imagens/banco-neon.jpg"
       } 
+     ```  
        
+#### Baseada nas seguintes libs:
+ - https://github.com/pagarme/node-boleto
+ - https://github.com/guilhermearaujo/boleto.js
