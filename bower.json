@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-boleto-linhadigitavel",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "erickwendel"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "boleto.js": "^1.0.1",
+    "jquery-mask-plugin": "jquery-mask#^1.14.10",
+    "jquery": "^3.2.1"
+  }
+}
