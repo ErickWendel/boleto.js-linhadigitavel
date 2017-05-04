@@ -64,7 +64,8 @@ server.register([Vision, Inert], () => {
                     agencia: Joi.string().required(),
                     codigoCedente: Joi.string().required(),
                     carteira: Joi.string().required(),
-                    pagador: Joi.string().required()
+                    pagador: Joi.string().required(),
+                    logoURL: Joi.string(),
                 }
             }
         }
